@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="222" result="Failed" total="24" passed="18" failed="6" inconclusive="0" skipped="0" asserts="956" engine-version="3.4.1.0" clr-version="4.0.30319.42000" start-time="2017-08-20 05:23:33Z" end-time="2017-08-20 05:42:31Z" duration="500.358802">
+  <command-line><![CDATA["C:\Program Files (x86)\NUnit-3.4.1\bin\nunit3-console"  --result:StuffTestResults.xml --work:"C:\ExampleTests\TestResults" --testlist:"C:\ExampleTests\TestLists\StuffTestList.txt" --workers=1 "C:\ExampleTests\ExampleTestsTests\bin\Release\ExampleTestsTests.dll"]]></command-line>
+  <filter>
+    <or>
+      <test>ExampleTests.Stuff.SomeTestClass.Test1</test>
+      <test>ExampleTests.Stuff.SomeTestClass.Test2</test>
+      <test>ExampleTests.Stuff.SomeTestClass.Test3</test>
+      <test>ExampleTests.Stuff.SomeTestClass.Test4</test>
+      <test>ExampleTests.Stuff.SomeTestClass.Test5</test>
+      <test>ExampleTests.Stuff.SomeTestClass.Test6</test>
+      <test>ExampleTests.Stuff.SomeTestClass.Test7</test>
+      <test>ExampleTests.Stuff.SomeTestClass.Next_Test_01</test>
+      <test>ExampleTests.Stuff.SomeTestClass.Next_Test_02</test>
+      <test>ExampleTests.Stuff.SomeTestClass.Next_Test_03</test>
+      <test>ExampleTests.Stuff.SomeTestClass.Next_Test_04</test>
+      <test>ExampleTests.Stuff.SomeTestClass.Next_Test_05</test>
+      <test>ExampleTests.Stuff.SomeTestClass.Next_Test_06</test>
+      <test>ExampleTests.Stuff.SomeTestClass.Next_Test_07</test>
+      <test>ExampleTests.Stuff.SomeTestClass.Next_Test_08</test>
+      <test>ExampleTests.Stuff.SomeTestClass.Next_Test_09</test>
+      <test>ExampleTests.Stuff.SomeTestClass.Next_Test_10</test>
+      <test>ExampleTests.Stuff.SomeTestClass.Another_Test_01</test>
+      <test>ExampleTests.Stuff.SomeTestClass.Another_Test_02</test>
+      <test>ExampleTests.Stuff.SomeTestClass.Another_Test_03</test>
+      <test>ExampleTests.Stuff.SomeTestClass.Another_Test_04</test>
+      <test>ExampleTests.Stuff.SomeTestClass.Another_Test_05</test>
+      <test>ExampleTests.Stuff.SomeTestClass.Another_Test_06</test>
+      <test>ExampleTests.Stuff.SomeTestClass.Another_Test_07</test>
+    </or>
+  </filter>
+  <test-suite type="Assembly" id="0-1240" name="ExampleTests.dll" fullname="C:\Example\ExampleTests\bin\Release\ExampleTests.dll" runstate="Runnable" testcasecount="222" result="Failed" site="Child" start-time="2017-07-24 05:23:33Z" end-time="2017-07-24 08:58:31Z" duration="12897.273951" total="24" passed="18" failed="6" warnings="0" inconclusive="0" skipped="0" asserts="956">
+    <environment framework-version="3.7.1.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Example\ExampleTests\bin\Release" machine-name="DALExampleQA-W7D" user="SYSTEM" user-domain="RISK" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="WorkDirectory" value="C:\Example\TestResults" />
+      <setting name="NumberOfTestWorkers" value="1" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.5.2" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+    </settings>
+    <properties>
+      <property name="ParallelScope" value="Children" />
+      <property name="LevelOfParallelism" value="8" />
+      <property name="_PID" value="5440" />
+      <property name="_APPDOMAIN" value="test-domain-" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="TestSuite" id="0-1241" name="ExampleTests" fullname="ExampleTests" runstate="Runnable" testcasecount="222" result="Failed" site="Child" start-time="2017-07-24 05:23:33Z" end-time="2017-07-24 08:58:31Z" duration="12897.227743" total="24" passed="18" failed="6" warnings="0" inconclusive="0" skipped="0" asserts="956">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="0-1243" name="Stuff" fullname="ExampleTests.Stuff" runstate="Runnable" testcasecount="122" result="Failed" site="Child" start-time="2017-07-24 05:23:33Z" end-time="2017-07-24 08:58:31Z" duration="12897.196485" total="24" passed="18" failed="6" warnings="0" inconclusive="0" skipped="0" asserts="956">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestFixture" id="0-1133" name="SomeTestClass" fullname="ExampleTests.Stuff.SomeTestClass" classname="ExampleTests.Stuff.SomeTestClass" runstate="Runnable" testcasecount="24" result="Failed" site="Child" start-time="2017-07-24 05:23:33Z" end-time="2017-07-24 08:58:31Z" duration="12897.177508" total="24" passed="18" failed="6" warnings="0" inconclusive="0" skipped="0" asserts="956">
+          <properties>
+            <property name="ParallelScope" value="Fixtures" />
+          </properties>
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="0-1134" name="Test1" fullname="ExampleTests.Stuff.SomeTestClass.Test1" methodname="Test1" classname="ExampleTests.Stuff.SomeTestClass" runstate="Runnable" seed="1755152797" result="Passed" start-time="2017-07-24 05:23:43Z" end-time="2017-07-24 05:36:52Z" duration="788.448251" asserts="43">
+            <properties>
+              <property name="Category" value="BUC" />
+            </properties>
+          </test-case>
+          <test-case id="0-1135" name="Test2" fullname="ExampleTests.Stuff.SomeTestClass.Test2" methodname="Test2" classname="ExampleTests.Stuff.SomeTestClass" runstate="Runnable" seed="316558711" result="Passed" start-time="2017-07-24 05:36:52Z" end-time="2017-07-24 05:48:05Z" duration="673.056635" asserts="37">
+            <properties>
+              <property name="Category" value="BUC" />
+            </properties>
+          </test-case>
+          <test-case id="0-1136" name="Test3" fullname="ExampleTests.Stuff.SomeTestClass.Test3" methodname="Test3" classname="ExampleTests.Stuff.SomeTestClass" runstate="Runnable" seed="1098524974" result="Passed" start-time="2017-07-24 05:48:05Z" end-time="2017-07-24 06:02:57Z" duration="891.646097" asserts="51">
+            <properties>
+              <property name="Category" value="BUC" />
+            </properties>
+          </test-case>
+          <test-case id="0-1137" name="Test4" fullname="ExampleTests.Stuff.SomeTestClass.Test4" methodname="Test4" classname="ExampleTests.Stuff.SomeTestClass" runstate="Runnable" seed="416806045" result="Passed" start-time="2017-07-24 06:02:57Z" end-time="2017-07-24 06:13:49Z" duration="651.834264" asserts="38">
+            <properties>
+              <property name="Category" value="BUC" />
+            </properties>
+          </test-case>
+          <test-case id="0-1138" name="Test5" fullname="ExampleTests.Stuff.SomeTestClass.Test5" methodname="Test5" classname="ExampleTests.Stuff.SomeTestClass" runstate="Runnable" seed="356942850" result="Passed" start-time="2017-07-24 06:13:49Z" end-time="2017-07-24 06:25:29Z" duration="699.897855" asserts="43">
+            <properties>
+              <property name="Category" value="BUC" />
+            </properties>
+          </test-case>
+          <test-case id="0-1139" name="Test6" fullname="ExampleTests.Stuff.SomeTestClass.Test6" methodname="Test6" classname="ExampleTests.Stuff.SomeTestClass" runstate="Runnable" seed="2040521104" result="Passed" start-time="2017-07-24 06:25:29Z" end-time="2017-07-24 06:36:12Z" duration="642.982723" asserts="44">
+            <properties>
+              <property name="Category" value="BUC" />
+            </properties>
+          </test-case>
+          <test-case id="0-1140" name="Test7" fullname="ExampleTests.Stuff.SomeTestClass.Test7" methodname="Test7" classname="ExampleTests.Stuff.SomeTestClass" runstate="Runnable" seed="2104397559" result="Passed" start-time="2017-07-24 06:36:12Z" end-time="2017-07-24 06:49:36Z" duration="803.926285" asserts="51">
+            <properties>
+              <property name="Category" value="BUC" />
+            </properties>
+          </test-case>
+          <test-case id="0-1141" name="Next_Test_01" fullname="ExampleTests.Stuff.SomeTestClass.Next_Test_01" methodname="Next_Test_01" classname="ExampleTests.Stuff.SomeTestClass" runstate="Runnable" seed="279975062" result="Passed" start-time="2017-07-24 06:49:36Z" end-time="2017-07-24 06:57:57Z" duration="501.388828" asserts="50">
+            <properties>
+              <property name="Category" value="BUC" />
+            </properties>
+          </test-case>
+          <test-case id="0-1142" name="Next_Test_02" fullname="ExampleTests.Stuff.SomeTestClass.Next_Test_02" methodname="Next_Test_02" classname="ExampleTests.Stuff.SomeTestClass" runstate="Runnable" seed="1546898733" result="Passed" start-time="2017-07-24 06:57:57Z" end-time="2017-07-24 07:07:00Z" duration="543.072238" asserts="43">
+            <properties>
+              <property name="Category" value="BUC" />
+            </properties>
+          </test-case>
+          <test-case id="0-1143" name="Next_Test_03" fullname="ExampleTests.Stuff.SomeTestClass.Next_Test_03" methodname="Next_Test_03" classname="ExampleTests.Stuff.SomeTestClass" runstate="Runnable" seed="233072219" result="Passed" start-time="2017-07-24 07:07:00Z" end-time="2017-07-24 07:17:42Z" duration="641.826399" asserts="52">
+            <properties>
+              <property name="Category" value="BUC" />
+            </properties>
+          </test-case>
+          <test-case id="0-1144" name="Next_Test_04" fullname="ExampleTests.Stuff.SomeTestClass.Next_Test_04" methodname="Next_Test_04" classname="ExampleTests.Stuff.SomeTestClass" runstate="Runnable" seed="683737285" result="Passed" start-time="2017-07-24 07:17:42Z" end-time="2017-07-24 07:28:49Z" duration="667.009847" asserts="53">
+            <properties>
+              <property name="Category" value="BUC" />
+            </properties>
+          </test-case>
+          <test-case id="0-1145" name="Next_Test_05" fullname="ExampleTests.Stuff.SomeTestClass.Next_Test_05" methodname="Next_Test_05" classname="ExampleTests.Stuff.SomeTestClass" runstate="Runnable" seed="333844148" result="Failed" label="Error" start-time="2017-07-24 07:28:49Z" end-time="2017-07-24 07:34:04Z" duration="314.631771" asserts="23">
+            <properties>
+              <property name="Category" value="BUC" />
+            </properties>
+            <failure>
+              <message><![CDATA[System.InvalidOperationException : unknown error: Element <div id="divLogout" class="topbar-logout">...</div> is not clickable at point (861, 15). Other element would receive the click: <div class="blockUI blockOverlay" style="z-index: 10000; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.2; position: fixed;"></div>
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.1.7601 SP1 x86_64)]]></message>
+              <stack-trace><![CDATA[   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="0-1146" name="Next_Test_06" fullname="ExampleTests.Stuff.SomeTestClass.Next_Test_06" methodname="Next_Test_06" classname="ExampleTests.Stuff.SomeTestClass" runstate="Runnable" seed="1845887528" result="Passed" start-time="2017-07-24 07:34:04Z" end-time="2017-07-24 07:43:57Z" duration="593.530406" asserts="51">
+            <properties>
+              <property name="Category" value="BUC" />
+            </properties>
+          </test-case>
+          <test-case id="0-1147" name="Next_Test_07" fullname="ExampleTests.Stuff.SomeTestClass.Next_Test_07" methodname="Next_Test_07" classname="ExampleTests.Stuff.SomeTestClass" runstate="Runnable" seed="1959462249" result="Failed" start-time="2017-07-24 07:43:57Z" end-time="2017-07-24 07:46:10Z" duration="132.362516" asserts="14">
+            <properties>
+              <property name="Category" value="BUC" />
+            </properties>
+            <failure>
+              <message><![CDATA[  Expected: String starting with "One"
+  But was:  "Two"
+]]></message>
+              <stack-trace><![CDATA[at ExampleTests.Stuff.SomeTestClass.Next_Test_07() in C:\Users\user\Documents\Visual Studio 2015\Projects\Example\ExampleTests\Stuff\SomeTestClass.cs:line 3585
+]]></stack-trace>
+            </failure>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: String starting with "One"
+  But was:  "Two"
+]]></message>
+                <stack-trace><![CDATA[at ExampleTests.Stuff.SomeTestClass.Next_Test_07() in C:\Users\user\Documents\Visual Studio 2015\Projects\Example\ExampleTests\Stuff\SomeTestClass.cs:line 3585
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1148" name="Next_Test_08" fullname="ExampleTests.Stuff.SomeTestClass.Next_Test_08" methodname="Next_Test_08" classname="ExampleTests.Stuff.SomeTestClass" runstate="Runnable" seed="227487364" result="Passed" start-time="2017-07-24 07:46:10Z" end-time="2017-07-24 07:53:16Z" duration="425.905346" asserts="37">
+            <properties>
+              <property name="Category" value="BUC" />
+            </properties>
+          </test-case>
+          <test-case id="0-1149" name="Next_Test_09" fullname="ExampleTests.Stuff.SomeTestClass.Next_Test_09" methodname="Next_Test_09" classname="ExampleTests.Stuff.SomeTestClass" runstate="Runnable" seed="1512787013" result="Failed" label="Error" start-time="2017-07-24 07:53:16Z" end-time="2017-07-24 07:59:48Z" duration="392.423124" asserts="35">
+            <properties>
+              <property name="Category" value="BUC" />
+            </properties>
+            <failure>
+              <message><![CDATA[OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"partial link text","selector":"Example"}
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.1.7601 SP1 x86_64)]]></message>
+              <stack-trace><![CDATA[   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at ExampleAutomation.Pages.MessagesPage.SelectCase(String lastName) in C:\Users\user\Documents\Visual Studio 2015\Projects\Example\ExampleAutomation\Pages\Main\MessagesPage.cs:line 11
+   at ExampleTests.Stuff.SomeTestClass.Next_Test_09() in C:\Users\user\Documents\Visual Studio 2015\Projects\Example\ExampleTests\Stuff\SomeTestClass.cs:line 4089]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="0-1150" name="Next_Test_10" fullname="ExampleTests.Stuff.SomeTestClass.Next_Test_10" methodname="Next_Test_10" classname="ExampleTests.Stuff.SomeTestClass" runstate="Runnable" seed="1368608527" result="Passed" start-time="2017-07-24 07:59:48Z" end-time="2017-07-24 08:07:10Z" duration="441.525058" asserts="37">
+            <properties>
+              <property name="Category" value="BUC" />
+            </properties>
+          </test-case>
+          <test-case id="0-1151" name="Another_Test_01" fullname="ExampleTests.Stuff.SomeTestClass.Another_Test_01" methodname="Another_Test_01" classname="ExampleTests.Stuff.SomeTestClass" runstate="Runnable" seed="1872164084" result="Passed" start-time="2017-07-24 08:07:10Z" end-time="2017-07-24 08:17:04Z" duration="594.473851" asserts="45">
+            <properties>
+              <property name="Category" value="BUC" />
+            </properties>
+          </test-case>
+          <test-case id="0-1152" name="Another_Test_02" fullname="ExampleTests.Stuff.SomeTestClass.Another_Test_02" methodname="Another_Test_02" classname="ExampleTests.Stuff.SomeTestClass" runstate="Runnable" seed="120327918" result="Passed" start-time="2017-07-24 08:17:04Z" end-time="2017-07-24 08:28:48Z" duration="703.729595" asserts="50">
+            <properties>
+              <property name="Category" value="BUC" />
+            </properties>
+          </test-case>
+          <test-case id="0-1153" name="Another_Test_03" fullname="ExampleTests.Stuff.SomeTestClass.Another_Test_03" methodname="Another_Test_03" classname="ExampleTests.Stuff.SomeTestClass" runstate="Runnable" seed="589338960" result="Passed" start-time="2017-07-24 08:28:48Z" end-time="2017-07-24 08:36:43Z" duration="475.386328" asserts="38">
+            <properties>
+              <property name="Category" value="BUC" />
+            </properties>
+          </test-case>
+          <test-case id="0-1154" name="Another_Test_04" fullname="ExampleTests.Stuff.SomeTestClass.Another_Test_04" methodname="Another_Test_04" classname="ExampleTests.Stuff.SomeTestClass" runstate="Runnable" seed="2007584452" result="Passed" start-time="2017-07-24 08:36:43Z" end-time="2017-07-24 08:48:22Z" duration="698.321173" asserts="68">
+            <properties>
+              <property name="Category" value="BUC" />
+            </properties>
+          </test-case>
+          <test-case id="0-1155" name="Another_Test_05" fullname="ExampleTests.Stuff.SomeTestClass.Another_Test_05" methodname="Another_Test_05" classname="ExampleTests.Stuff.SomeTestClass" runstate="Runnable" seed="1619641476" result="Failed" label="Error" start-time="2017-07-24 08:48:22Z" end-time="2017-07-24 08:52:42Z" duration="260.122227" asserts="25">
+            <properties>
+              <property name="Category" value="BUC" />
+            </properties>
+            <failure>
+              <message><![CDATA[OpenQA.Selenium.NoSuchElementException : Cannot locate option with value: ]]></message>
+              <stack-trace><![CDATA[   at OpenQA.Selenium.Support.UI.SelectElement.SelectByValue(String value)
+   at ExampleAutomation.Pages.ExamplePageObject.ExampleMethod() in C:\Users\user\Documents\Visual Studio 2015\Projects\Example\ExampleAutomation\Pages\Stuff\ExamplePageObject.cs:line 328
+   at ExampleTests.Stuff.SomeTestClass.Another_Test_05() in C:\Users\user\Documents\Visual Studio 2015\Projects\Example\ExampleTests\Stuff\SomeTestClass.cs:line 5555]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="0-1156" name="Another_Test_06" fullname="ExampleTests.Stuff.SomeTestClass.Another_Test_06" methodname="Another_Test_06" classname="ExampleTests.Stuff.SomeTestClass" runstate="Runnable" seed="551622038" result="Failed" label="Error" start-time="2017-07-24 08:52:42Z" end-time="2017-07-24 08:56:04Z" duration="202.411758" asserts="16">
+            <properties>
+              <property name="Category" value="BUC" />
+            </properties>
+            <failure>
+              <message><![CDATA[OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"link text","selector":"Example"}
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.1.7601 SP1 x86_64)]]></message>
+              <stack-trace><![CDATA[   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at ExampleAutomation.AnotherExampleObject.Select(String linkText) in C:\Users\user\Documents\Visual Studio 2015\Projects\Example\ExampleAutomation\Navigation\AnotherExampleObject.cs:line 9
+   at ExampleTests.Stuff.SomeTestClass.Another_Test_06() in C:\Users\user\Documents\Visual Studio 2015\Projects\Example\ExampleTests\Stuff\SomeTestClass.cs:line 5769]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="0-1157" name="Another_Test_07" fullname="ExampleTests.Stuff.SomeTestClass.Another_Test_07" methodname="Another_Test_07" classname="ExampleTests.Stuff.SomeTestClass" runstate="Runnable" seed="1348616924" result="Failed" start-time="2017-07-24 08:56:04Z" end-time="2017-07-24 08:58:26Z" duration="141.734708" asserts="12">
+            <properties>
+              <property name="Category" value="BUC" />
+            </properties>
+            <failure>
+              <message><![CDATA[  Expected string length 9 but was 6. Strings differ at index 0.
+  Expected: "This"
+  But was:  "That"
+  -----------^
+]]></message>
+              <stack-trace><![CDATA[at ExampleTests.Stuff.SomeTestClass.Another_Test_07() in C:\Users\user\Documents\Visual Studio 2015\Projects\Example\ExampleTests\Stuff\SomeTestClass.cs:line 5939
+]]></stack-trace>
+            </failure>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected string length 9 but was 6. Strings differ at index 0.
+  Expected: "This"
+  But was:  "That"
+  -----------^
+]]></message>
+                <stack-trace><![CDATA[at ExampleTests.Stuff.SomeTestClass.Another_Test_07() in C:\Users\user\Documents\Visual Studio 2015\Projects\Example\ExampleTests\Stuff\SomeTestClass.cs:line 5939
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
